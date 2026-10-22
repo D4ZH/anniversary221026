@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Para ti</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="cur cl" aria-hidden="true"></div><div class="cur cr" aria-hidden="true"></div>
+<div class="ini" id="ini"><div class="inb"><h1>Con mucho amor, para Ivy &lt;3</h1><button class="abrir" id="empezar" type="button">Empezar</button></div></div>
+<button class="snd" id="snd" type="button" aria-label="Silenciar sonido" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#2b1a12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="#2b1a12"/><path class="w" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/><path class="x" d="M17 9l5 6M22 9l-5 6"/></svg></button>
+<div class="tel"><button class="abrir" id="abrir">Abrir telón</button></div>
+<div class="floor"></div>
+<div class="scene" aria-hidden="true">
+<div class="sec" data-k="mc" style="left:1px;bottom:calc(16vh + 46px);width:120px;--r:-3deg"><img alt="Dos jugadores de Minecraft con armadura dorada, uno arrodillado frente al otro" src="assets/img/secretos/mc.webp"></div>
+<div class="sec" data-k="rb" style="left:191px;bottom:calc(16vh + 15px);width:90px;--r:2deg"><img alt="Dos personajes de Roblox junto a un parlante, la rubia sentada al frente" src="assets/img/secretos/rb.webp"></div>
+<div class="sec" data-k="alice" style="right:16px;bottom:calc(16vh + 60px);width:130px;--r:-2deg"><img alt="Dos personajes de Roblox bailando abrazados" src="assets/img/secretos/alice.webp"></div>
+<div class="sec" data-k="nina" style="right:231px;bottom:calc(16vh + 106px);width:100px;--r:3deg"><img alt="Un personaje de Roblox dormido sobre el pasto con el texto Mi niña" src="assets/img/secretos/nina.webp"></div>
+<div class="sec" data-k="mario" style="right:391px;bottom:calc(16vh + 52px);width:70px;--r:-2deg"><img alt="Un Mario morado junto a un Toad" src="assets/img/secretos/mario.webp"></div>
+<div class="k fl" style="width:210px;height:210px;background:var(--blue);left:-50px"></div>
+<div class="k" style="width:180px;height:180px;background:var(--red);left:-20px;bottom:calc(16vh + 198px)"></div>
+<div class="k" style="width:150px;height:150px;background:var(--gold);left:5px;bottom:calc(16vh + 384px)"></div>
+<div class="k fl" style="width:130px;height:130px;background:var(--green);left:175px"></div>
+<div class="k fl" style="width:170px;height:64px;background:var(--red);left:240px;border-radius:32px;bottom:calc(16vh + 194px)"></div>
+<div class="k fl" style="width:80px;height:200px;background:var(--blue);left:300px;border-radius:40px"></div>
+<div class="k fl" style="width:230px;height:270px;background:#f58a1f;right:-30px;border-radius:115px 115px 0 0"><div style="position:absolute;inset:16px 16px 0;background:#8a1020;border-radius:96px 96px 0 0"></div></div>
+<div class="k" style="width:260px;height:62px;background:var(--gold);right:-40px;bottom:calc(16vh + 266px)"></div>
+<div class="k" style="width:190px;height:54px;background:var(--green);right:0;bottom:calc(16vh + 336px)"></div>
+<div class="k fl" style="width:140px;height:320px;background:linear-gradient(90deg,var(--blue) 50%,var(--pink) 50%);right:215px"><span class="hole" style="top:40px"></span><span class="hole" style="top:110px;width:16px;height:16px"></span></div>
+<div class="k fl" style="width:100px;height:190px;background:var(--green);right:380px;border-radius:12px"></div>
+<svg style="position:absolute;top:0;right:7%;width:230px;height:400px" viewBox="0 0 230 400"><rect x="100" y="0" width="30" height="400" fill="#3b2418" stroke="#2b1a12" stroke-width="5"/><g fill="none" stroke-width="11" stroke-linecap="round"><path d="M20 60A95 18 0 0 0 210 60" stroke="#d8232a"/><path d="M20 120A95 18 0 0 0 210 120" stroke="#f6c945"/><path d="M20 180A95 18 0 0 0 210 180" stroke="#d8232a"/><path d="M20 240A95 18 0 0 0 210 240" stroke="#f6c945"/><path d="M20 300A95 18 0 0 0 210 300" stroke="#d8232a"/><path d="M20 360A95 18 0 0 0 210 360" stroke="#f6c945"/></g></svg>
+<div class="k fl" style="width:100px;height:100px;background:#8f5bd6;left:500px"></div>
+<div class="k fl" style="width:70px;height:70px;background:var(--green);left:515px;bottom:calc(16vh + 94px)"></div>
+<div class="k fl" style="width:70px;height:150px;background:#36c5d6;right:495px;border-radius:35px"></div>
+<div class="k" style="width:70px;height:70px;background:#f58a1f;left:290px;bottom:calc(16vh + 258px);border-radius:16px"></div>
+<svg class="fl" style="position:absolute;right:239px;bottom:calc(16vh + 314px);width:92px;height:88px" viewBox="0 0 92 88"><path d="M46 4 58 32 88 34 65 54 73 84 46 68 19 84 27 54 4 34 34 32Z" fill="#f6c945" stroke="#2b1a12" stroke-width="5" stroke-linejoin="round"/></svg>
+<svg class="fl" style="position:absolute;right:382px;bottom:calc(16vh + 178px);width:96px;height:84px" viewBox="0 0 96 84"><path d="M48 5 91 79H5Z" fill="#f08ac0" stroke="#2b1a12" stroke-width="5" stroke-linejoin="round"/></svg>
+<div class="sky" style="width:130px;height:130px;left:28%;top:2%"></div>
+<div class="sky" style="width:100px;height:100px;right:33%;top:11%"></div>
+<svg class="fl" style="position:absolute;left:420px;width:56px;height:80px;bottom:calc(16vh - 6px)" viewBox="0 0 56 80"><path d="M28 40C10 30 6 10 14 2C24 12 28 24 28 40ZM28 40C46 30 50 10 42 2C32 12 28 24 28 40Z" fill="#2fb35a" stroke="#2b1a12" stroke-width="3"/><path d="M10 50h36l-5 28H15Z" fill="#d8232a" stroke="#2b1a12" stroke-width="4"/></svg>
+</div>
+
+<div class="bub" style="width:70px;height:70px;left:18%;top:16%"></div>
+<div class="bub" style="width:44px;height:44px;right:20%;top:30%;animation-delay:-3s"></div>
+<div class="bub" style="width:56px;height:56px;left:40%;bottom:26%;animation-delay:-5s"></div>
+<main>
+<img class="host" alt="Caine, el anfitrión" src="assets/img/caine.webp">
+<div class="bubble" id="bubble" aria-live="polite"></div>
+<section class="card" id="screen"></section>
+</main>
+<script src="js/matter.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
